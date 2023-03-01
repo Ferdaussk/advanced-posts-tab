@@ -3,6 +3,16 @@ $all_posts = new \WP_Query($all_tst_args);
 while (  $all_posts->have_posts()) { $all_posts->the_post();
 ?><div class="col-md-4 col-sm-6 apostst-grid-item apostst-img-galleryItem-active <?php foreach(get_the_category(get_the_ID()) as $key => $value){ echo $value->category_nicename.' '; }?>"><?php
 echo '<div class="apostst-gallery-wrapper">';
+  if('yes' === $apostst_categories_swtcher){
+          if('show_main_cat' === $apostst_cat_show_status){ 
+                  $categories = get_the_category();
+                  if ( ! empty( $categories ) ) {
+                          echo '<ul class="post-categories"><li><a href="'. esc_url(plugin_dir_url( '../../category/').$categories[0]->name ) .'" class="apostst-cat">'.esc_html( $categories[0]->name ).'</a></li></ul>';	
+                  }
+          } elseif('show_multiple_cat' === $apostst_cat_show_status){
+          the_category();
+          }
+  }
   echo '<div class="apostst-gallery-thumb">';
   $apostst_the_thumbnail_check = has_post_thumbnail()?get_the_post_thumbnail_url():plugin_dir_url(__DIR__) . '../../assets/public/img/bwd-placeholder.jpg';
   echo '<a href="'.get_the_permalink().'"><img src="'.$apostst_the_thumbnail_check.'" alt="Add Thumbnail"></a>';
@@ -38,16 +48,6 @@ echo '<div class="apostst-gallery-wrapper">';
             $apostst_author = ('yes' === $apostst_author_swtcher) ? $apostst_total_author.'<span>'.get_the_author_meta( 'nickname' ).'</span>' : '';
                 echo '<div class="apostst-author">'.$apostst_author.'</div>';
                echo '</div>';
-            if('yes' === $apostst_categories_swtcher){
-                    if('show_main_cat' === $apostst_cat_show_status){ 
-                            $categories = get_the_category();
-                            if ( ! empty( $categories ) ) {
-                                    echo '<ul class="post-categories"><li><a href="'. esc_url(plugin_dir_url( '../../category/').$categories[0]->name ) .'" class="apostst-cat">'.esc_html( $categories[0]->name ).'</a></li></ul>';	
-                            }
-                    } elseif('show_multiple_cat' === $apostst_cat_show_status){
-                    the_category();
-                    }
-            }
             $apostst_post_tags = get_the_tags();
             $apostst_main_tag = ($apostst_post_tags) ? $apostst_post_tags[0]->name:'';
             $apostst_tag_title = '<span>'.$apostst_main_tag.'</span></div>';
