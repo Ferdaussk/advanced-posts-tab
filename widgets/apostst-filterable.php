@@ -189,7 +189,7 @@ class FPOSTGfilterable extends Widget_Base {
 			[
 				'label' => esc_html__( 'Exclude', 'advanced-posts-tab' ),
 				'type' => Controls_Manager::TEXT,
-				'description' => '<span class="pro-feature">Exclude post using post ID <strong>(Ex:- 10)</strong>.</span>',
+				'description' => '<span class="pro-feature">Exclude post using post ID and separate with using comma. <strong>(Ex:- 10,11,12)</strong>.</span>',
 			]
 		);
 		$this->add_control(
@@ -2029,8 +2029,7 @@ class FPOSTGfilterable extends Widget_Base {
 		$apostst_author = $apostst_display['apostst_the_all_author'];
 		$apostst_order_by = $apostst_display['apostst_the_order_by'];
 		$apostst_blog_pst_exclude = $apostst_display['apostst_blog_pst_exclude'];
-
-		$dsjfhdf = explode(',', $apostst_blog_pst_exclude);
+		$apostst_blog_pst_explode = explode(',', $apostst_blog_pst_exclude);
 
 		$apostst_blog_next_format = $apostst_display['apostst_blog_next_format'];
 		$apostst_blog_prev_format = $apostst_display['apostst_blog_prev_format'];
@@ -2044,7 +2043,7 @@ class FPOSTGfilterable extends Widget_Base {
 			$apostst_pagination_position = 'text-end';
 		} else{ $apostst_pagination_position = ''; }
 
-		$all_tst_args = array('post_type' => 'post', 'posts_per_page' => $apostst_post_per_page, 'author__in' => $apostst_author, 'orderby' => $apostst_order_by, 'order' => $apostst_blog_order, 'post__not_in' => $dsjfhdf);
+		$all_tst_args = array('post_type' => 'post', 'posts_per_page' => $apostst_post_per_page, 'author__in' => $apostst_author, 'orderby' => $apostst_order_by, 'order' => $apostst_blog_order, 'post__not_in' => $apostst_blog_pst_explode);
 		include( __DIR__ . '/style-templates/'.$apostst_style_selection.'.php' );
 	}
 }
