@@ -1,0 +1,699 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Advanced Posts Tab\n"
+"POT-Creation-Date: 2023-08-26 18:25+0600\n"
+"PO-Revision-Date: 2023-08-26 18:25+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: advanced-posts-tab.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: advanced-posts-tab.php:64
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: advanced-posts-tab.php:65 apostst_boots.php:54
+#: page-settings/creative-filterable-manager.php:21
+#: widgets/apostst-filterable-main.php:16
+msgid "Advanced Posts Tab"
+msgstr ""
+
+#: advanced-posts-tab.php:66
+msgid "PHP"
+msgstr ""
+
+#: advanced-posts-tab.php:70
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: page-settings/creative-filterable-manager.php:32
+#: widgets/apostst-filterable-main.php:279
+msgid "Settings"
+msgstr ""
+
+#: page-settings/creative-filterable-manager.php:40
+#: page-settings/creative-filterable-manager.php:42
+#: widgets/apostst-filterable-main.php:204
+#: widgets/apostst-filterable-main.php:297
+#: widgets/apostst-filterable-main.php:823
+msgid "Title"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:12
+msgid "AdvancedPostsTab"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:31
+msgid "Presets"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:38
+msgid "Styles"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:42
+msgid "Style 1"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:43
+msgid "Style 2"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:44
+msgid "Style 3 Masking"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:45
+msgid "Style 4 Masking"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:46
+msgid "Style 5 Masking"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:47
+msgid "Style 6 Masking"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:48
+msgid "Style 7 Masking"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:49
+msgid "Style 8 Masking"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:50
+msgid "Style 9 Masking"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:51
+msgid "Style 10 Masking"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:52
+msgid "Style 11 Masking"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:53
+msgid "Style 12 Masking"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:54
+msgid "Style 13"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:55
+msgid "Style 14"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:56
+msgid "Style 15"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:57
+msgid "Style 16"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:58
+msgid "Style 17"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:59
+msgid "Style 18"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:60
+msgid "Style 19"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:61
+msgid "Style 20"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:62
+msgid "Style 21"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:63
+msgid "Style 22"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:64
+msgid "Style 23"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:65
+msgid "Style 24"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:66
+msgid "Style 25"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:67
+msgid "Style 26"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:68
+msgid "Style 27"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:69
+msgid "Style 28"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:70
+msgid "Style 29"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:71
+msgid "Style 30"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:80
+#: widgets/apostst-filterable-main.php:149
+#: widgets/apostst-filterable-main.php:565
+msgid "Category Items"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:90
+msgid "All Item"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:92
+#: widgets/apostst-filterable-main.php:202
+msgid "All"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:104
+msgid "Cat Text Type"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:108
+msgid "Custom Text"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:109
+msgid "Dynamic Text"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:116
+msgid "Text"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:118
+msgid "Filterable"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:140
+#: widgets/apostst-filterable-main.php:142
+msgid "Select Category"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:154
+msgid "Category Item #1"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:157
+msgid "Category Item #2"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:160
+msgid "Category Item #3"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:163
+msgid "Category Item #4"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:174
+msgid "Query"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:181
+msgid "Post Per Item"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:184
+msgid "00"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:190
+msgid "Exclude"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:198
+msgid "Order By"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:203
+#: widgets/apostst-filterable-main.php:424
+#: widgets/apostst-filterable-main.php:1273
+msgid "Author"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:205
+msgid "ID"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:206
+#: widgets/apostst-filterable-main.php:1151
+msgid "Date"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:213
+msgid "Order"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:217
+msgid "Descending"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:218
+msgid "Ascending"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:232
+msgid "Choose Author"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:234
+msgid "All Author"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:240
+#: widgets/apostst-filterable-main.php:1527
+msgid "Category"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:242
+#: widgets/apostst-filterable-main.php:268
+#: widgets/apostst-filterable-main.php:288
+#: widgets/apostst-filterable-main.php:299
+#: widgets/apostst-filterable-main.php:310
+#: widgets/apostst-filterable-main.php:342
+#: widgets/apostst-filterable-main.php:353
+#: widgets/apostst-filterable-main.php:391
+#: widgets/apostst-filterable-main.php:400
+#: widgets/apostst-filterable-main.php:426
+msgid "Show"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:243
+#: widgets/apostst-filterable-main.php:269
+#: widgets/apostst-filterable-main.php:289
+#: widgets/apostst-filterable-main.php:300
+#: widgets/apostst-filterable-main.php:311
+#: widgets/apostst-filterable-main.php:343
+#: widgets/apostst-filterable-main.php:354
+#: widgets/apostst-filterable-main.php:401
+#: widgets/apostst-filterable-main.php:427
+msgid "Hide"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:251
+msgid "Show Status"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:255
+msgid "Show Multiple Category"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:256
+msgid "Show Main Category"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:266
+msgid "Tag"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:286
+msgid "Show Filter"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:308
+msgid "Title Link"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:322
+msgid "Title HTML Tag"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:326
+msgid "Div"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:327
+msgid "H1"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:328
+msgid "H2"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:329
+msgid "H3"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:330
+msgid "H4"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:331
+msgid "H5"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:332
+msgid "H6"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:333
+msgid "p"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:340
+#: widgets/apostst-filterable-main.php:1405
+msgid "Comment"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:351
+#: widgets/apostst-filterable-main.php:972
+msgid "Description"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:362
+msgid "Word Length"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:373
+msgid "Word Trim Indicator"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:375
+msgid "..."
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:385
+msgid "All Taxo Icons"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:390
+#: widgets/apostst-filterable-main.php:504
+msgid "None"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:398
+msgid "Publish Date"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:410
+msgid "Date Format"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:412
+#: widgets/apostst-filterable-main.php:413
+msgid "j M y"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:436
+msgid "Author Indicator"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:440
+msgid "Gravatar"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:441
+msgid "Author Icon"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:451
+msgid "Gravader Size"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:476
+msgid "Icon"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:493
+#: widgets/apostst-filterable-main.php:500
+msgid "Pagination"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:505
+msgid "Number and Text"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:506
+msgid "Number"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:513
+#: widgets/apostst-filterable-main.php:572
+#: widgets/apostst-filterable-main.php:1126
+msgid "Items Alignment"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:518
+#: widgets/apostst-filterable-main.php:576
+#: widgets/apostst-filterable-main.php:1130
+msgid "Left"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:522
+#: widgets/apostst-filterable-main.php:580
+#: widgets/apostst-filterable-main.php:1134
+msgid "Center"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:526
+#: widgets/apostst-filterable-main.php:584
+#: widgets/apostst-filterable-main.php:1138
+msgid "Right"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:539
+msgid "Next Text"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:541
+msgid "Next »"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:551
+msgid "Prev Text"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:553
+msgid "« Prev"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:597
+msgid "Item Gap"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:613
+msgid "Item Bottom Spacing"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:634
+#: widgets/apostst-filterable-main.php:837
+#: widgets/apostst-filterable-main.php:986
+#: widgets/apostst-filterable-main.php:1165
+#: widgets/apostst-filterable-main.php:1287
+#: widgets/apostst-filterable-main.php:1419
+#: widgets/apostst-filterable-main.php:1541
+#: widgets/apostst-filterable-main.php:1673
+#: widgets/apostst-filterable-main.php:1871
+msgid "Normal"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:648
+#: widgets/apostst-filterable-main.php:729
+#: widgets/apostst-filterable-main.php:781
+#: widgets/apostst-filterable-main.php:851
+#: widgets/apostst-filterable-main.php:1000
+#: widgets/apostst-filterable-main.php:1179
+#: widgets/apostst-filterable-main.php:1301
+#: widgets/apostst-filterable-main.php:1433
+#: widgets/apostst-filterable-main.php:1555
+#: widgets/apostst-filterable-main.php:1687
+#: widgets/apostst-filterable-main.php:1885
+msgid "Color"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:659
+#: widgets/apostst-filterable-main.php:758
+#: widgets/apostst-filterable-main.php:792
+msgid "Background Type"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:674
+#: widgets/apostst-filterable-main.php:746
+#: widgets/apostst-filterable-main.php:807
+#: widgets/apostst-filterable-main.php:879
+#: widgets/apostst-filterable-main.php:933
+#: widgets/apostst-filterable-main.php:1090
+#: widgets/apostst-filterable-main.php:1238
+#: widgets/apostst-filterable-main.php:1321
+#: widgets/apostst-filterable-main.php:1367
+#: widgets/apostst-filterable-main.php:1492
+#: widgets/apostst-filterable-main.php:1575
+#: widgets/apostst-filterable-main.php:1621
+#: widgets/apostst-filterable-main.php:1746
+#: widgets/apostst-filterable-main.php:1797
+#: widgets/apostst-filterable-main.php:1986
+msgid "Border Radius"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:692
+#: widgets/apostst-filterable-main.php:948
+#: widgets/apostst-filterable-main.php:1059
+#: widgets/apostst-filterable-main.php:1249
+#: widgets/apostst-filterable-main.php:1381
+#: widgets/apostst-filterable-main.php:1503
+#: widgets/apostst-filterable-main.php:1646
+#: widgets/apostst-filterable-main.php:1757
+#: widgets/apostst-filterable-main.php:1819
+msgid "Padding"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:703
+#: widgets/apostst-filterable-main.php:959
+#: widgets/apostst-filterable-main.php:1070
+#: widgets/apostst-filterable-main.php:1260
+#: widgets/apostst-filterable-main.php:1392
+#: widgets/apostst-filterable-main.php:1514
+#: widgets/apostst-filterable-main.php:1635
+#: widgets/apostst-filterable-main.php:1768
+#: widgets/apostst-filterable-main.php:1808
+#: widgets/apostst-filterable-main.php:1997
+msgid "Margin"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:716
+#: widgets/apostst-filterable-main.php:1906
+msgid "Active"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:768
+#: widgets/apostst-filterable-main.php:891
+#: widgets/apostst-filterable-main.php:1021
+#: widgets/apostst-filterable-main.php:1200
+#: widgets/apostst-filterable-main.php:1333
+#: widgets/apostst-filterable-main.php:1454
+#: widgets/apostst-filterable-main.php:1587
+#: widgets/apostst-filterable-main.php:1708
+msgid "Hover"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:861
+#: widgets/apostst-filterable-main.php:915
+#: widgets/apostst-filterable-main.php:1010
+#: widgets/apostst-filterable-main.php:1045
+#: widgets/apostst-filterable-main.php:1189
+#: widgets/apostst-filterable-main.php:1224
+#: widgets/apostst-filterable-main.php:1311
+#: widgets/apostst-filterable-main.php:1357
+#: widgets/apostst-filterable-main.php:1443
+#: widgets/apostst-filterable-main.php:1478
+#: widgets/apostst-filterable-main.php:1565
+#: widgets/apostst-filterable-main.php:1611
+#: widgets/apostst-filterable-main.php:1697
+#: widgets/apostst-filterable-main.php:1732
+#: widgets/apostst-filterable-main.php:1789
+#: widgets/apostst-filterable-main.php:1895
+#: widgets/apostst-filterable-main.php:1930
+msgid "Background"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:872
+#: widgets/apostst-filterable-main.php:926
+msgid "Border"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:905
+#: widgets/apostst-filterable-main.php:1035
+#: widgets/apostst-filterable-main.php:1214
+#: widgets/apostst-filterable-main.php:1347
+#: widgets/apostst-filterable-main.php:1468
+#: widgets/apostst-filterable-main.php:1601
+#: widgets/apostst-filterable-main.php:1722
+msgid "Hover Color"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:1083
+msgid "Thumbnail Image"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:1101
+msgid "Image Height"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:1659
+msgid "Tags"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:1781
+msgid "Box Style"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:1832
+msgid "Pagination Style"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:1842
+msgid "Gap"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:1920
+msgid "Active Color"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:1944
+msgid "Box Width"
+msgstr ""
+
+#: widgets/apostst-filterable-main.php:1965
+msgid "Box Height"
+msgstr ""
+
+#: widgets/style-templates/texo-datas/datas-all.php:61
+#: widgets/style-templates/texos/texo.php:44
+msgid "Comment ("
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://bwdplugins.com/bwd-filterable-gallery"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Advanced Posts Tab plugin with 30+ types of Filterable Gallery also "
+"responsive gallery for Elementor."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Best WP Developer"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://bestwpdeveloper.com/"
+msgstr ""
