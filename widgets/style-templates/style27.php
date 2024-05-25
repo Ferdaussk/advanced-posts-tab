@@ -12,7 +12,7 @@ echo '<div class="apostst-gallery-filtering-twenty-eight apostst-gallery-filteri
         echo '</div>';
       echo '</div>';
     echo '</div>';
-    echo '<div class="row apostst-grid-twenty-eight apostst-grid-common">';
+    echo '<div class="row apostst-grid-twenty-eight apostst-grid-common section" id="boxContainer">';
       include( __DIR__ . '/texo-datas/datas-all.php' );
     echo '</div>';
   echo '</div>';

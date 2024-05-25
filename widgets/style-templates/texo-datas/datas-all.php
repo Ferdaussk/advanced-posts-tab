@@ -1,6 +1,5 @@
 <?php 
 if ( ! defined( 'ABSPATH' ) ) exit;
-echo '<div class="section" id="boxContainer">';
 $all_posts = new \WP_Query($all_tst_args);
 while (  $all_posts->have_posts()) { $all_posts->the_post();
 ?>
@@ -76,7 +75,6 @@ echo '<div class="apostst-gallery-wrapper">';
   echo '</div>';
 echo '</div>';
 }
-echo '</div>';
 echo '<div class="load-more-btn">';
   echo '<span class="load-more" id="loadMoreBtn">'.esc_html__('Load More').'</span>';
 echo '</div>';

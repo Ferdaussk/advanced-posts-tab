@@ -151,7 +151,7 @@ class BWDPostFGfilterable extends Widget_Base {
 				'fields' => $repeater->get_controls(),
 				'default' => [
 					[
-						'apostst_total_box_title_one' => esc_html__( 'Category Item #1', 'advanced-posts-tab' ),
+						'apostst_total_box_title' => esc_html__( 'Category Item #1', 'advanced-posts-tab' ),
 					],
 					[
 						'apostst_total_box_title' => esc_html__( 'Category Item #2', 'advanced-posts-tab' ),
@@ -1753,6 +1753,196 @@ class BWDPostFGfilterable extends Widget_Base {
 			]
 		);
 		$this->end_controls_section();
+
+		$this->start_controls_section(
+					'apostst_loadmore_gallery_item_style_section',
+					[
+						'label' => esc_html__( 'Load More', 'advanced-posts-tab' ),
+						'tab' => Controls_Manager::TAB_STYLE,
+					]
+				);
+				$this->add_responsive_control(
+					'apostst_loadmore_filterable_all_items_align',
+					[
+						'label' => esc_html__( 'Button Alignment', 'advanced-posts-tab' ),
+						'type' => Controls_Manager::CHOOSE,
+						'options' => [
+							'start' => [
+								'title' => esc_html__( 'Left', 'advanced-posts-tab' ),
+								'icon' => 'eicon-text-align-left',
+							],
+							'center' => [
+								'title' => esc_html__( 'Center', 'advanced-posts-tab' ),
+								'icon' => 'eicon-text-align-center',
+							],
+							'end' => [
+								'title' => esc_html__( 'Right', 'advanced-posts-tab' ),
+								'icon' => 'eicon-text-align-right',
+							],
+						],
+						'toggle' => true,
+						'selectors' => [
+							'{{WRAPPER}} .load-more-btn' => 'justify-content: {{VALUE}};',
+						],
+					]
+				);
+				$this->add_responsive_control(
+					'apostst_loadmore_filterable_item_spacing',
+					[
+						'label' => esc_html__( 'Button Bottom Spacing', 'advanced-posts-tab' ),
+						'type' => Controls_Manager::SLIDER,
+						'range' => [
+							'px' => [
+								'min' => 0,
+								'max' => 200,
+							],
+						],
+						'selectors' => [
+							'{{WRAPPER}} .load-more-btn' => 'padding-top: {{SIZE}}{{UNIT}};',
+						],
+					]
+				);
+				// Hover
+				$this->start_controls_tabs(
+					'apostst_loadmore_filterable_all_item_title_style_tabsxs'
+				);
+		
+				$this->start_controls_tab(
+					'apostst_loadmore_filterable_all_item_title_style_normal_tabxx',
+					[
+						'label' => esc_html__( 'Normal', 'advanced-posts-tab' ),
+					]
+				);
+				
+				$this->add_group_control(
+					\Elementor\Group_Control_Typography::get_type(),
+					[
+						'name' => 'apostst_loadmore_filterable_all_item_typography',
+						'selector' => '{{WRAPPER}} .load-more-btn .load-more',
+					]
+				);
+				$this->add_control(
+					'apostst_loadmore_filterable_all_item_content_quote_right_color',
+					[
+						'label' => esc_html__( 'Color', 'advanced-posts-tab' ),
+						'type' => Controls_Manager::COLOR,
+						'selectors' => [
+							'{{WRAPPER}} .load-more-btn .load-more' => 'color: {{VALUE}}',
+						],
+					]
+				);
+				$this->add_group_control(
+					\Elementor\Group_Control_Background::get_type(),
+					[
+						'name' => 'apostst_loadmore_filterable_all_item_div_hoveraaaa_sssssbackground',
+						'label' => esc_html__( 'Background Type', 'advanced-posts-tab' ),
+						'types' => [ 'classic', 'gradient' ],
+						'selector' => '{{WRAPPER}} .load-more-btn .load-more',
+					]
+				);
+				$this->add_group_control(
+					\Elementor\Group_Control_Border::get_type(),
+					[
+						'name' => 'apostst_loadmore_filterable_item_border',
+						'selector' => '{{WRAPPER}} .load-more-btn .load-more',
+					]
+				);
+				$this->add_responsive_control(
+					'apostst_loadmore_filterable_all_item_hover_border_radius',
+					[
+						'label' => esc_html__('Border Radius', 'advanced-posts-tab'),
+						'type' => Controls_Manager::DIMENSIONS,
+						'size_units' => ['px', 'em', 'rem', 'vh', '%'],
+						'selectors' => [
+							'{{WRAPPER}} .load-more-btn .load-more' => 'border-radius: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+						],
+					]
+				);
+				$this->add_group_control(
+					\Elementor\Group_Control_Box_Shadow::get_type(),
+					[
+						'name' => 'apostst_loadmore_filterable_all_item_box_shadow',
+						'selector' => '{{WRAPPER}} .load-more-btn .load-more',
+					]
+				);
+				$this->add_responsive_control(
+					'apostst_loadmore_filterable_all_item_hover_padding',
+					[
+						'label' => esc_html__('Padding', 'advanced-posts-tab'),
+						'type' => Controls_Manager::DIMENSIONS,
+						'size_units' => ['px', 'em', 'rem', 'vh', '%'],
+						'selectors' => [
+							'{{WRAPPER}} .load-more-btn .load-more' => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+						],
+					]
+				);
+				$this->add_responsive_control(
+					'apostst_loadmore_filterable_all_item_hover_margin',
+					[
+						'label' => esc_html__('Margin', 'advanced-posts-tab'),
+						'type' => Controls_Manager::DIMENSIONS,
+						'size_units' => ['px', 'em', 'rem', 'vh', '%'],
+						'selectors' => [
+							'{{WRAPPER}} .load-more-btn .load-more' => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+						],
+					]
+				);
+				$this->end_controls_tab();
+		
+				$this->start_controls_tab(
+					'apostst_loadmore_filterable_all_item_title_style_hover_tabaa',
+					[
+						'label' => esc_html__( 'Hover', 'advanced-posts-tab' ),
+					]
+				);
+				$this->add_group_control(
+					\Elementor\Group_Control_Typography::get_type(),
+					[
+						'name' => 'apostst_loadmore_filterable_all_item_hover_typography',
+						'selector' => '{{WRAPPER}} .load-more-btn .load-more:hover',
+					]
+				);
+				$this->add_control(
+					'apostst_loadmore_filterable_all_item_content_quote_right_colorss',
+					[
+						'label' => esc_html__( 'Color', 'advanced-posts-tab' ),
+						'type' => Controls_Manager::COLOR,
+						'selectors' => [
+							'{{WRAPPER}} .load-more-btn .load-more:hover' => 'color: {{VALUE}}',
+						],
+					]
+				);
+				$this->add_group_control(
+					\Elementor\Group_Control_Background::get_type(),
+					[
+						'name' => 'apostst_loadmore_filterable_all_item_div_hoveraaaa_background',
+						'label' => esc_html__( 'Background Type', 'advanced-posts-tab' ),
+						'types' => [ 'classic', 'gradient' ],
+						'selector' => '{{WRAPPER}} .load-more-btn .load-more:hover',
+					]
+				);
+				$this->add_group_control(
+					\Elementor\Group_Control_Border::get_type(),
+					[
+						'name' => 'apostst_loadmore_filterable_item_hover_border',
+						'selector' => '{{WRAPPER}} .load-more-btn .load-more:hover',
+					]
+				);
+				$this->add_responsive_control(
+					'apostst_loadmore_filterable_item_hover_border_radius',
+					[
+						'label' => esc_html__('Border Radius', 'advanced-posts-tab'),
+						'type' => Controls_Manager::DIMENSIONS,
+						'size_units' => ['px', 'em', 'rem', 'vh', '%'],
+						'selectors' => [
+							'{{WRAPPER}} .load-more-btn .load-more:hover' => 'border-radius: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+						],
+					]
+				);
+				$this->end_controls_tab();
+				$this->end_controls_tabs();
+				// Hover end
+				$this->end_controls_section();
 	}
 	protected function render() {
 		$apostst_display = $this->get_settings_for_display();
